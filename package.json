@@ -1,6 +1,6 @@
 {
   "name": "simplejs-rate-limiter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "simple rate limiter",
   "main": "./dist/index.js",
   "scripts": {
