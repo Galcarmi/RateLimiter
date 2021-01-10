@@ -1,0 +1,21 @@
+{
+  "name": "simple-rate-limiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@types/jest": "^26.0.20",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "jest": "^26.6.3"
+  }
+}
