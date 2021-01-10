@@ -1,10 +1,10 @@
-
-
 # SimpleRateLimiter
-super simple Requests RateLimiter integrated with lru cache package.
+
+SimpleJSRateLimitersuper is a simple RateLimiter integrated with lru cache package.
 
 ```js
-  
+const { RateLimiterSingleton } = require("./dist/index");
+
 //SetRateLimitOptions(timelimit, maximumRequestInTimeLimit);
 RateLimiterSingleton.SetRateLimitOptions(4000, 2);
 
