@@ -1,13 +1,13 @@
 {
   "name": "custom-rate-limiter",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "simple rate limiter",
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gal Carmi",
+  "license": "MIT",
   "dependencies": {
     "lru-cache": "^6.0.0"
   },
