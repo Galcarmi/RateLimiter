@@ -5,12 +5,12 @@ module.exports = {
   entry: "./src/index.js",
   target:"node",
   output: {
-    publicPath: "/js/",
     path: path.join(__dirname, "/dist"),
     filename: "index.js",
     libraryTarget:"umd",
     globalObject:"this",
-    umdNamedDefine:true
+    umdNamedDefine:true,
+    library: "custom-rate-limiter"
   },
   devtool: false,
   module: {
@@ -20,7 +20,6 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
-          
         },
       },
     ],
